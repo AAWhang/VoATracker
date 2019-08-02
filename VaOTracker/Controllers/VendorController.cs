@@ -22,13 +22,13 @@ namespace VaOTracker.Controllers
     }
 
     [HttpPost("/vendors")]
-    public ActionResult Create(string vendorName)
+    public ActionResult Create(string vendorName, string vendorDesc)
     {
-      Vendor newVendor = new Vendor(vendorName);
+      Vendor newVendor = new Vendor(vendorName,vendorDesc);
       return RedirectToAction("Index");
     }
 
-    [HttpGet("/vendors/{id}")] 
+    [HttpGet("/vendors/{id}")]
     public ActionResult Show(int id)
     {
       Dictionary<string, object> model = new Dictionary<string, object>();
@@ -42,11 +42,12 @@ namespace VaOTracker.Controllers
 
     // This one creates new Items within a given Vendor, not new Categories:
     [HttpPost("/vendors/{vendorId}/orders")]
-    public ActionResult Create(int vendorId, string orderDescription)
+    public ActionResult Create(int vendorId, string orderTitle, string orderDescription, string orderPrice, string orderDate)
     {
       Dictionary<string, object> model = new Dictionary<string, object>();
       Vendor foundVendor = Vendor.Find(vendorId);
-      Order newOrder = new Order(orderDescription);
+      double priceconverstion = double.Parse(orderPrice, System.Globalization.CultureInfo.InvariantCulture);
+      Order newOrder = new Order(orderTitle, orderDescription, priceconverstion, orderDate);
       foundVendor.AddItem(newOrder);
       List<Order> vendorOrder = foundVendor.Orders;
       model.Add("orders", vendorOrder);
