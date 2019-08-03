@@ -15,7 +15,6 @@ C:\Users\ABXYLR\desktop\project\csharp\VaOTracker.Solution\VaOTracker\obj\Debug\
 C:\Users\ABXYLR\desktop\project\csharp\VaOTracker.Solution\VaOTracker\obj\Debug\netcoreapp2.2\VaOTracker.TagHelpers.output.cache
 C:\Users\ABXYLR\desktop\project\csharp\VaOTracker.Solution\VaOTracker\obj\Debug\netcoreapp2.2\VaOTracker.RazorCoreGenerate.cache
 C:\Users\ABXYLR\desktop\project\csharp\VaOTracker.Solution\VaOTracker\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
-C:\Users\ABXYLR\desktop\project\csharp\VaOTracker.Solution\VaOTracker\obj\Debug\netcoreapp2.2\Razor\Views\Orders\Index.g.cshtml.cs
 C:\Users\ABXYLR\desktop\project\csharp\VaOTracker.Solution\VaOTracker\obj\Debug\netcoreapp2.2\Razor\Views\Orders\New.g.cshtml.cs
 C:\Users\ABXYLR\desktop\project\csharp\VaOTracker.Solution\VaOTracker\obj\Debug\netcoreapp2.2\Razor\Views\Orders\Show.g.cshtml.cs
 C:\Users\ABXYLR\desktop\project\csharp\VaOTracker.Solution\VaOTracker\obj\Debug\netcoreapp2.2\Razor\Views\Vendor\Index.g.cshtml.cs
@@ -27,5 +26,3 @@ C:\Users\ABXYLR\desktop\project\csharp\VaOTracker.Solution\VaOTracker\obj\Debug\
 C:\Users\ABXYLR\desktop\project\csharp\VaOTracker.Solution\VaOTracker\obj\Debug\netcoreapp2.2\VaOTracker.dll
 C:\Users\ABXYLR\desktop\project\csharp\VaOTracker.Solution\VaOTracker\obj\Debug\netcoreapp2.2\VaOTracker.pdb
 C:\Users\ABXYLR\desktop\project\csharp\VaOTracker.Solution\VaOTracker\obj\Debug\netcoreapp2.2\VaOTracker.csproj.CopyComplete
-C:\Users\ABXYLR\desktop\project\csharp\VaOTracker.Solution\VaOTracker\obj\Debug\netcoreapp2.2\Razor\Views\Orders\DeleteAll.g.cshtml.cs
-C:\Users\ABXYLR\desktop\project\csharp\VaOTracker.Solution\VaOTracker\obj\Debug\netcoreapp2.2\Razor\Views\Vendor\DeleteAll.g.cshtml.cs
